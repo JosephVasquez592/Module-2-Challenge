@@ -1,16 +1,43 @@
+/* Sets the styles for the whole page. */
 * {
     font-family: Verdana, Helvetica, sans-serif;
 }
 
+/* Sets styles for the header. */
 header {
-    background-color: black;
-    color: #d40404;
+    background-color: #187a0f;
     border: 5px solid darkslategray;
+    justify-content: space-between;
 }
 
-ul {
+/* Sets styles for the unordered list element. */
+li {
+    display: inline;
+    border: 2px solid mediumseagreen;
+    background-color: white;
+    border-radius: 0 5px 0 5px;
+}
+
+/* Sets styles for the header elements throughout the page. Uses class. */
+.htext {
+    font-size: 40px;
+    color: #252c42;
+}
+
+/* Sets styles ONLY for the image in the header. Uses id. */
+#hdrimg {
+    border: 3px solid black;
+}
+
+.content {
 
 }
 
+.wrkimg {
+    display: block;
+    border: 3px solid black;
+    margin: 5px 5px 5px 5px;
+}
 
+/* Query */
 @media 
