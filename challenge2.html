@@ -2,48 +2,81 @@
 <html lang="en-US">
     <head>
         <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" >
         <link rel="stylesheet" href="./challenge2reset.css">
         <link rel="stylesheet" href="./challenge2.css">
         <title>Joseph's Portfolio</title>
     </head>
    
-    <header>
-        <h1 class="htext">Joseph</h1>
-        <img id="hdrimg" src="./assets/header-image.png" alt="photo of applicant" width="75" height="50">
-        <nav>
-            <ul>
-                <li><a href="#about">About Me</a></li>
-                <li><a href="#work">Work</a></li>
-                <li><a href="#contact">Contact Me</a></li>
-                <li><a href="">Resume</a></li>
-            </ul>
-        </nav>
-        <h2 class="htext">HTML, CSS, and JavaScript!</h2>
-    </header>
-   
     <body>
+        <header>
+            <h1>Joseph</h1>
+            <img src="./assets/header-image.png" alt="photo of applicant" width="75" height="50">
+            <div id="one">
+                <nav>
+                    <ul>
+                        <li>
+                            <a href="#about">About Me</a>
+                        </li>
+                        <li>
+                            <a href="#work">Work</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact Me</a>
+                        </li>
+                        <li>
+                            <a href="" target="_blank">Resume</a>
+                        </li>
+                    </ul>
+                </nav>
+                <h2><span class="red">HTML</span>,<span class="blue"> CSS</span>, and <span class="yellow">JavaScript</span>!</h2>
+            </div>
+        </header>
 
-        <h3 id="about" class="htext content">About Me</h3>
-            <article>
-                <p>I am a student learning how to code.</p>
-            </article>
-
-        <h3 id="work" class="htext content">Work</h3>
-            <img class="wrkimg" src="./assets/work5.png" alt="under construction" width="100" height="100">
-            <img class="wrkimg" src="./assets/work6.png" alt="kirbo" width="50" height="50">
-            <img class="wrkimg" src="./assets/work2.png" alt="kirbo" width="50" height="50">
-            <img class="wrkimg" src="./assets/work3.png" alt="kirbo" width="50" height="50">
-            <img class="wrkimg" src="./assets/work4.png" alt="kirbo" width="50" height="50">
-    </body>
+        <main>
+            <h3 class="header one">About Me-</h3>
+                <article>
+                    <p>I am a student learning how to code and studying to become a full stack web developer.</p>
+                </article>
+            <h3 class="header two">Work-</h3>
+                <div class="work">
+                    <a class="imglink" href="" target="_blank">
+                        <img class="wrkimg" src="./assets/work1.png" alt="strong kirbo" width="250" height="250">
+                    </a>
+                    <a class="imglink" href="" target="_blank">
+                        <img class="wrkimg" src="./assets/work2.png" alt="surprised kirbo" width="250" height="250">
+                    </a>
+                    <a class="imglink" href="" target="_blank">
+                        <img class="wrkimg" src="./assets/work3.png" alt="dissapointed kirbo" width="250" height="250">
+                    </a>
+                    <a class="imglink" href="" target="_blank">
+                        <img class="wrkimg" src="./assets/work4.png" alt="smiling kirbo" width="250" height="250">
+                    </a>
+                    <a class="imglink" href="" target="_blank">
+                       <img class="wrkimg" src="./assets/work5.png" alt="angry kirbo" width="250" height="250">
+                    </a>
+                    <a>
+                        <img class="wrkimg" src="./assets/work6.png" alt="destructi kirbo" width="250" height="250">
+                    </a>
+                </div>
+        </main>
     
-    <footer>
-        <h4 id="contact" class="htext content">Contact Me</h4>
-            <ul>
-                <li><a href="">Phone Number</a></li>
-                <li><a href="">Email</a></li>
-                <li><a href="">GitHub</a></li>
-                <li><a href="">Social</a></li>
-            </ul>
-    </footer>
-
+        <footer>
+            <h4 class="header three">Contact Me-</h4>
+                <ul>
+                    <li>
+                        <a href="">Phone Number</a>
+                    </li>
+                    <li>
+                        <a href="">Email</a>
+                    </li>
+                    <li>
+                        <a href="https://github.com/JosephVasquez592" target="_blank">GitHub</a>
+                    </li>
+                    <li>
+                        <a href="">Social</a>
+                    </li>
+                </ul>
+        </footer>
+    </body>
 </html>

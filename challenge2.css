@@ -1,43 +1,120 @@
-/* Sets the styles for the whole page. */
-* {
-    font-family: Verdana, Helvetica, sans-serif;
+/* Sets global attributes. */
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: linear-gradient(to bottom right,#4d8c57, #f8de7e);
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
 }
 
-/* Sets styles for the header. */
+/* Sets the text color of all links on page. */
+a {
+    color: white;
+}
+
+/* Sets styles for things inside the header element. */
 header {
-    background-color: #187a0f;
-    border: 5px solid darkslategray;
-    justify-content: space-between;
+    padding: 10px;
+    background-color: #c1ccbe;
+    box-shadow: 10px 10px #f571ec;
 }
 
-/* Sets styles for the unordered list element. */
-li {
-    display: inline;
-    border: 2px solid mediumseagreen;
-    background-color: white;
+/* Sets size and family of text in h1 element. */
+h1 {
+    font-size: 50px;
+    font-family: serif;
+}
+
+/* Sets size for h2 element text. */
+h2 {
+    font-size: 35px;
+}
+
+/* Sets styles for the image within the header element. */
+header img {
+    border: 2px solid black;
+}
+
+/* Sets the text color for the "red" class. */
+.red {
+    color: #e3050c;
+}
+
+/* Sets the text color for the "blue" class. */
+.blue { 
+    color: blue;
+}
+
+/* Sets the text color for the "yellow" class. */
+.yellow {
+    color: yellow;
+}
+
+/* Sets properties for the list items within the header parent tag. */
+header nav li {
+    font-size: 20px;
+    display: inline-block;
+    border: 2px black solid;
     border-radius: 0 5px 0 5px;
+    background-color: black;
+    position: relative;
+    right: 5px;
+    margin: 5px 15px 5px 15px;
+    box-shadow:5px 5px grey;
 }
 
-/* Sets styles for the header elements throughout the page. Uses class. */
-.htext {
+/* Sets properties for the "one" id. */
+#one{
+    float: right;
+}
+
+/* Sets styles for things inside the main element. */
+main {
+    position: static;
+}
+
+/* Sets properties/styles for the "header" class. */
+.header {
     font-size: 40px;
-    color: #252c42;
+    text-decoration: underline;
+    position: static;
+    padding: 10px;
+    font-family: monospace
 }
 
-/* Sets styles ONLY for the image in the header. Uses id. */
-#hdrimg {
-    border: 3px solid black;
+/* Sets the properties for paragraph elements within the article. */
+article p {
+    text-align: center;
+    font-size: 25px;
 }
 
-.content {
-
-}
-
+/* Sets properties/styles for the "wrkimg" class. */
 .wrkimg {
-    display: block;
-    border: 3px solid black;
-    margin: 5px 5px 5px 5px;
+    border: 2px solid black;
+    margin: 10px;
+    box-shadow: 5px 5px #f571ec;
 }
 
-/* Query */
-@media 
+/* Sets properties/styles for the "imglink" class. */
+.imglink {
+    color: transparent;
+    font-size: 1px;
+}
+
+/* Sets properties/styles for the ul element within the footer parent element. */
+footer ul {
+    float: right;
+    padding: 20px 0 20px 0;
+}
+
+/* Sets properties/styles for the list items within the footer parent element. */
+footer ul li {
+    right: 5px;
+    font-size: 25px;
+    display: inline-block;
+    border: 2px black solid;
+    border-radius: 0 5px 0 5px;
+    background-color: black;
+    margin: 2px 20px 2px 20px;
+    box-shadow:5px 5px grey;
+}
